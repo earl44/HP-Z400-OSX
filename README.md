@@ -3,21 +3,21 @@ HP Z400 OSX 11.x-12.x
 
 
 A gép amin teszteltem:
-Xeon W3550
-20GB DDR3 ECC
-ASUS Strix RX470
-3x SDD
-2x HDD
+*Xeon W3550
+*20GB DDR3 ECC
+*ASUS Strix RX470
+*3x SDD
+*2x HDD
 
 Ami működik:
-CPU - NullCPUPowerManagement.kext
-GPU – OOB
-Ethernet - CatalinaBCM5701Ethernet.kext
-USB - USBInjectAll.kext
-ICH8 (SSD-HDD) - AHCIPortInjector.kext, IOAHCIBlockStorageInjector_v1.0.0_Micky1979.kext
+*CPU - NullCPUPowerManagement.kext
+*GPU – OOB
+*Ethernet - CatalinaBCM5701Ethernet.kext
+*USB - USBInjectAll.kext
+*ICH8 (SSD-HDD) - AHCIPortInjector.kext, IOAHCIBlockStorageInjector_v1.0.0_Micky1979.kext
 
 Ami viszont nem működik:
-Audio: semmilyen módon nem bírtam életre kelteni, szerencsére a HDMI audio OOB működik.
+*Audio: semmilyen módon nem bírtam életre kelteni, szerencsére a HDMI audio OOB működik.
 
 
 (A telepítéshez szükséged lesz egy másik pc-re vagy mac-re.)
