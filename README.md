@@ -3,11 +3,9 @@ HP Z400 OSX 11.x-12.x
 
 
 A gép amin teszteltem:
-*Xeon W3550
-*20GB DDR3 ECC
-*ASUS Strix RX470
-*3x SDD
-*2x HDD
+Xeon W3550
+20GB DDR3 ECC
+ASUS Strix RX470
 
 Ami működik:
 *CPU - NullCPUPowerManagement.kext
