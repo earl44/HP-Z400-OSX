@@ -20,7 +20,6 @@ Ami viszont nem működik:
 Audio: semmilyen módon nem bírtam életre kelteni, szerencsére a HDMI audio OOB működik.
 
 
-
 (A telepítéshez szükséged lesz egy másik pc-re vagy mac-re.)
  
 1, Telepítő létrehozása:
