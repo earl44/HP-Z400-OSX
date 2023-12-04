@@ -9,6 +9,18 @@ ASUS Strix RX470
 3x SDD
 2x HDD
 
+Ami működik:
+CPU - NullCPUPowerManagement.kext
+GPU – OOB
+Ethernet - CatalinaBCM5701Ethernet.kext
+USB - USBInjectAll.kext
+ICH8 (SSD-HDD) - AHCIPortInjector.kext, IOAHCIBlockStorageInjector_v1.0.0_Micky1979.kext
+
+Ami viszont nem működik:
+Audio: semmilyen módon nem bírtam életre kelteni, szerencsére a HDMI audio OOB működik.
+
+
+
 (A telepítéshez szükséged lesz egy másik pc-re vagy mac-re.)
  
 1, Telepítő létrehozása:
@@ -27,7 +39,7 @@ OPENCORE
 A pendrive-on hozz létre egy min.80MB méretű partíciót és formázd meg FAT-ra.
 Másold fel rá a OC-0.9.6-HP-Z400-nousb mappa tartalmát. A LegacyBoot mappában található BootInstall_X64.tool segítségével tedd bootolhatová a pendrive-ot.
 Segítség itt: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#legacy-setup
-
+!!Figyelem az Open Core -al inditott rendszer bár elindul de az USB nem fog müködni.Arra amire mi használjuk pont megefelell mert akkor nincs szükség beavatkozásra alias billentyüzetre és egére.Viszont támogatja az NVRAM update -et amit a clover nem.!!
 
 CLOVER
 
